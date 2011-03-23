@@ -1,12 +1,11 @@
 <?php
-class DrupalRESTWebServices {
+class DrupalREST {
     var $username;
     var $password;
     var $session;
     var $endpoint;
     var $debug;
 
-    //send the
     function __construct($endpoint, $username, $password, $debug)
     {
         $this->username = $username;
